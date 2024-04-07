@@ -1,0 +1,39 @@
+nav {
+	background: #0031e3;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px 0px;
+}
+
+.logo-link {
+	display: flex;
+}
+.logo-link img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+.auth-div {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+.auth-div a {
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+    transition: all 0.4s;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.auth-div a img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+.auth-link:hover {
+	color: black;
+}
